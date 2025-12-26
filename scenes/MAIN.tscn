@@ -2766,9 +2766,16 @@ scale = Vector2(4.3199997, 1)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_nr8wp")
 
-[node name="Node2D3" parent="." instance=ExtResource("15_uag27")]
+[node name="Enemy_Bat" parent="." instance=ExtResource("15_uag27")]
 position = Vector2(1142.0001, 208)
 scale = Vector2(1.7087777, 1.853662)
+
+[node name="BatOnlyCollision" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="BatOnlyCollision"]
+polygon = PackedVector2Array(-670, 446, 1250, 432, 2869, 435, 2873, -666, -677, -657, -682, 458, -799, 429, -786, -812, 2967, -808, 2961, 751, -807, 785, -801, 425)
 
 [node name="BeetleSpawn" type="Marker2D" parent="."]
 position = Vector2(-416, -591)
