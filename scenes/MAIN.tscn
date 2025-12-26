@@ -2767,7 +2767,17 @@ scale = Vector2(4.3199997, 1)
 shape = SubResource("WorldBoundaryShape2D_nr8wp")
 
 [node name="Enemy_Bat" parent="." instance=ExtResource("15_uag27")]
-position = Vector2(1142.0001, 208)
+position = Vector2(-708.00006, -616.00006)
+scale = Vector2(1.7087777, 1.853662)
+collision_layer = 2
+collision_mask = 2
+
+[node name="Enemy_Bat3" parent="." instance=ExtResource("15_uag27")]
+position = Vector2(-621.00006, -633)
+scale = Vector2(2.1846325, 2.4652896)
+
+[node name="Enemy_Bat2" parent="." instance=ExtResource("15_uag27")]
+position = Vector2(-652, -698)
 scale = Vector2(1.7087777, 1.853662)
 
 [node name="BatOnlyCollision" type="StaticBody2D" parent="."]
