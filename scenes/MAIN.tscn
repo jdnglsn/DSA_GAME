@@ -2699,10 +2699,10 @@ scale = Vector2(3.6489935, 3.0801234)
 texture = ExtResource("3_fr04l")
 
 [node name="player" parent="." instance=ExtResource("11_27wxa")]
-position = Vector2(1247, 46)
+position = Vector2(945, 459)
 
 [node name="Camera2D" type="Camera2D" parent="player"]
-position = Vector2(191, 267)
+position = Vector2(1, 0)
 limit_bottom = 635
 limit_smoothed = true
 position_smoothing_enabled = true
@@ -2766,7 +2766,7 @@ scale = Vector2(4.3199997, 1)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_nr8wp")
 
-[node name="enemy_bat" parent="." instance=ExtResource("15_uag27")]
+[node name="Node2D3" parent="." instance=ExtResource("15_uag27")]
 position = Vector2(1142.0001, 208)
 scale = Vector2(1.7087777, 1.853662)
 
