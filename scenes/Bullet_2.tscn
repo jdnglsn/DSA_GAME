@@ -1,7 +1,14 @@
+
 [gd_scene load_steps=3 format=3 uid="uid://cv8ha75qqpjs5"]
 
 [ext_resource type="Texture2D" uid="uid://chjv7a0g5svhh" path="res://assets/Simple Bread.png" id="1_jpuye"]
 [ext_resource type="Script" path="res://Bullet.gd" id="2_hsd6y"]
+
+[gd_scene load_steps=3 format=3 uid="uid://0c7kqgockbqo"]
+
+[ext_resource type="Texture2D" uid="uid://chjv7a0g5svhh" path="res://assets/Simple Bread.png" id="1_jpuye"]
+[ext_resource type="Script" uid="uid://bntmoqc7mfhvt" path="res://Bullet.gd" id="2_hsd6y"]
+
 
 [node name="Sprite2D" type="Sprite2D"]
 texture_filter = 1
